@@ -106,7 +106,7 @@ body {
   color: green;
   cursor: pointer;
   z-index: 1001;
-  border: 5px solid green;
+
 }
 .theimagesect{
   display: flex;
@@ -119,6 +119,9 @@ body {
   height: 73px;
 
   background-color: yellow;
+}
+#subject{
+  font-size: 14px;
 }
 .success{
   padding-left: -3px;
@@ -501,7 +504,7 @@ background-color: black;
 .messag{
 padding:10px ;
 margin-left: 20%;
-margin-top: 20px;
+margin-top: 30px;
 justify-content: center; 
 display: block;
 flex-wrap: wrap ;
@@ -660,7 +663,21 @@ height: 60vh;
 margin-left: 2%;
 width: 100%;
 height: 60vh;
+overflow: scroll;
 
+}
+.bright{
+  font-size: 13px;
+  text-align: left;
+}
+.meny{
+  position: absolute;
+  right: 0;
+  top: 70px;
+  display:block ;
+}
+input:checked~ .sidebar .menu{
+  transform: translateX(0);
 }
 }
 .cousemessage h3{
@@ -866,7 +883,7 @@ outline: none;
 
 .solvers{
 margin-bottom: 20px;
-background-color: white;
+background-color: black;
 color: #28a745;
 text-align: left;
 }
@@ -875,4 +892,8 @@ margin: 20px;
 color: #007bff;
 text-align:right;
 padding: 10px;
+}
+#subject li a{
+  font-size: 12px;
+  line-height: 1;
 }

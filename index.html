@@ -10,11 +10,12 @@
 <body>
 
   <!-- Sidebar -->
+  <input type="checkbox" id="meny">
   <input type="checkbox" id="menu-toggle">
   <label for="menu-toggle" class="menu-icon">&#9776;</label>
   <aside class="sidebar">
     <nav class="menu">
-      <ul>
+     <label for="menu-toggle"> <ul>
         <li><a href="#analysis">DATA ANALYSIS</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#webdevelopment">WEB AND APP DEVELOPMENT</a></li>
@@ -27,7 +28,7 @@
         <li><a href="#matlab">MATLAB</a></li>
       
         
-      </ul>
+      </ul></label>
     </nav>
   </aside>
 
@@ -45,11 +46,12 @@
   </header>
 
   <div class="messag cousemessage" id="services">
-    <h2 class="solvers">WELCOME TO MATLAB AND DATA ANALYSIS SOLVERS   <span class="entail"> +254714047751</span>  </h2>
-    <h3>YOUR DATA ANALYSIS,WEB DEVELOPMENT AND MATLAB SERVICE BAY</h3><br><br>
+    <p class="solvers">WELCOME TO MATLAB AND DATA ANALYSIS SOLVERS   <span class="entail">&#9742;
+      +254714047751</span>  </p>
+    <p class="bright">YOUR DATA ANALYSIS,WEB DEVELOPMENT AND MATLAB SERVICE BAY</p><br><br>
      <h5>we offer the following services</h5><br>
 
-    <ul>
+    <ul id="subject">
     <li><a href="">DATA ANALYSIS</a></li>
     <li><a href="">MATLAB SERVICES</a></li>
     <li> <a href="">WEB DEVELOPMENT</a></li>
@@ -343,7 +345,7 @@ Our company specializes in providing comprehensive MATLAB services tailored to m
 
     
     <div class="ordercontainer" id="odernum">
-      <h1 class="assignhead">FILL THE FORM TO SHARE THE INSTRUCTION</h1>
+      <P class="assignhead">Fill in the form to share your project instructions</P>
       <form id="pricingForm">
           <!-- Email Input -->
           <div class="form-group">
